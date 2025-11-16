@@ -1,3 +1,8 @@
+NetSuite Advanced PDF/HTML Template for Item Subfields
+
+📄 Custom Transaction PDF Template built using NetSuite’s Advanced PDF/HTML + FreeMarker
+© 2025 Shahmeer Khan
+
 ⭐ Overview 
 
 This repository contains a fully-customizable NetSuite Advanced PDF/HTML Template designed for transactions such as Invoices, Sales Orders, and Estimates.
