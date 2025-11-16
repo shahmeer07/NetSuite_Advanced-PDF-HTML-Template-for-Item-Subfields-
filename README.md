@@ -1,66 +1,75 @@
-NetSuite Advanced PDF/HTML Template for Item Subfields
+# 🧾 NetSuite Advanced PDF/HTML Template  
+### A Production-Grade XML + FreeMarker Template for Modern Transaction PDFs  
+**© 2025 Shahmeer Khan**
 
-📄 Custom Transaction PDF Template built using NetSuite’s Advanced PDF/HTML + FreeMarker
-© 2025 Shahmeer Khan
+---
 
-⭐ Overview 
+![Preview Banner](https://dummyimage.com/1100x220/0f0f0f/ffffff&text=NetSuite+Advanced+PDF+Template)
 
-This repository contains a fully-customizable NetSuite Advanced PDF/HTML Template designed for transactions such as Invoices, Sales Orders, and Estimates.
-It enhances standard NetSuite PDFs by providing:
+<div align="center">
 
-Modern, clean layout
+📦 **Advanced Template** • 🧠 **FreeMarker Logic** • 🌍 **Multi-Locale Fonts** • 🧮 **Dynamic Totals** • 🧾 **Clean Invoice Design**
 
-Dynamic headers & footers
+</div>
 
-Item subfield formatting
+---
 
-Multi-locale font support
+## 🚀 Why This Template Exists
 
-FreeMarker-driven data rendering
+A modern, developer-friendly, visually consistent NetSuite PDF template.  
+NetSuite’s default PDFs are functional — but not beautiful. This template fixes that.
 
-Professional invoice structure
+✔ Clean & premium invoice layout  
+✔ Professional header and footer  
+✔ Global font compatibility  
+✔ Dynamic item table with subfields  
+✔ Optimised for printing + dispatch  
+✔ Ready for real-world deployment  
 
-This template uses BFO (Big Faceless Organization) PDF syntax + FreeMarker to render dynamic NetSuite records into production-grade PDF documents.
+---
 
-🚀 Features
+# 🔥 Key Features
 
-Dynamic Multi-Locale Font Support
-Automatically swaps fonts for Chinese, Japanese, Thai, and Korean customers.
+### 🖨️ 1. Next-Gen Header & Footer  
+- Logo + company data  
+- Large transaction title  
+- Auto barcode for transaction ID  
+- Page number rendering  
 
-Custom Header & Footer Macros
+### 🌍 2. Multi-Locale Font Engine  
+Automatically switches fonts for:
 
-Company logo
+| Locale | Font |
+|--------|------|
+| 🇨🇳 Chinese (Simplified) | NotoSansCJKsc |
+| 🇹🇼 Chinese (Traditional) | NotoSansCJKtc |
+| 🇯🇵 Japanese | NotoSansCJKjp |
+| 🇰🇷 Korean | NotoSansCJKkr |
+| 🇹🇭 Thai | NotoSansThai |
 
-Transaction title
+Fallback: **NotoSans Regular**
 
-Barcode of transaction ID
+### 📄 3. Beautiful Item Table  
+- Bolded item titles  
+- Description under item  
+- Quantity / Rate / Profit / Amount  
+- Precise column grouping for alignment  
 
-Page numbers
+### 🧮 4. Totals Summary  
+A clean, print-friendly totals section with:  
+- Subtotal  
+- Tax with automatic percentage  
+- Highlighted grand total  
 
-Enhanced Item Table Layout
+### 🧱 5. Modular FreeMarker Structure  
+- Header macro  
+- Footer macro  
+- Conditional fonts  
+- Reusable components  
 
-Quantity, Item Name, Rate, Gross Profit, Amount
+---
 
-Clean, consistent alignment
+MIT License  
+Copyright (c) 2025 Shahmeer Khan
 
-Expandable descriptions
 
-Totals Summary Section
-
-Subtotal, tax, and total
-
-Automatically formatted with currency
-
-Highlighted total row
-
-Supports Any NetSuite Record
-
-Invoice
-
-Estimate
-
-Sales Order
-
-Credit Memo
-
-Custom records (with minor tweaks)
